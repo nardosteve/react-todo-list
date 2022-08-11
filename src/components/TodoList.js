@@ -48,7 +48,11 @@ function TodoList() {
         <h1>What's the plan today?</h1>
         
         <TodoForm onSubmit={addTodo} />
-        <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo} />
+        <Todo 
+        todos={todos} 
+        completeTodo={completeTodo} 
+        removeTodo={removeTodo} 
+        updateTodo={updateTodo} />
     </div>
   )
 }
